@@ -11,6 +11,7 @@ handler = http.server.SimpleHTTPRequestHandler
 httpd = socketserver.TCPServer(("", port), handler)
 
 print(f"Serving on port {port}")
+print(f"http://localhost:{port}")
 
 # Start the server
 httpd.serve_forever()
