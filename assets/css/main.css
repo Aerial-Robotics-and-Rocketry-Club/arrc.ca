@@ -83,7 +83,6 @@ input, select, textarea {
 		html, body {
 			min-width: 320px;
 		}
-
 	}
 
 	html {
@@ -1505,8 +1504,7 @@ input, select, textarea {
 	#ig{
 		width: 150px; 
 		height: 200px; 
-		object-fit: cover; 
-		object-position: 50% 50%;
+		object-fit: cover;
 	}
 
 	#main {
@@ -1626,6 +1624,7 @@ input, select, textarea {
 			#main article {
 				padding: 3rem 1.5rem 0.5rem 1.5rem ;
 			}
+			
 
 		}
 
